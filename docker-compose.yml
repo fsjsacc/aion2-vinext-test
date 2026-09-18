@@ -18,14 +18,13 @@ services:
     labels:
       - "traefik.enable=true"
 
-      # ── 验证域名 ────────────────────────────────────────────────────
-      # test.aion2kina.com → CF 橙云 A → 2.25.206.13（proxied）
-      # CF 记录 id: 2cbf7648184fe1f2cc2dc62196bbf961
-      - "traefik.http.routers.aion2-vinext-test.rule=Host(`test.aion2kina.com`)"
-      - "traefik.http.routers.aion2-vinext-test.entrypoints=websecure"
-      - "traefik.http.routers.aion2-vinext-test.tls=true"
+      # ── 生产域名 ────────────────────────────────────────────────────
+      # www.aion2kina.com / aion2kina.com → CF 橙云 A → 2.25.206.13（proxied）
+      - "traefik.http.routers.aion2-kina-prod.rule=Host(`www.aion2kina.com`) || Host(`aion2kina.com`)"
+      - "traefik.http.routers.aion2-kina-prod.entrypoints=websecure"
+      - "traefik.http.routers.aion2-kina-prod.tls=true"
 
-      - "traefik.http.services.aion2-vinext-test.loadbalancer.server.port=80"
+      - "traefik.http.services.aion2-kina-prod.loadbalancer.server.port=80"
 
   app:
     build:
