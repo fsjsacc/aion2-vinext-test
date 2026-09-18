@@ -66,7 +66,8 @@ Traefik (443, Dokploy 托管)
   ▼
 nginx:80  (本仓库 nginx/)
   │  proxy_pass http://app:3000
-  │  deny /cdn-cgi /__debug /@fs /@vite /@id
+  │  deny /cdn-cgi /__debug        ← 只挡 miniflare Explorer
+  │  放行 /@fs /@vite /@id         ← Vite dev server 正常路径，必须放行
   ▼
 app:3000  (node:22-bookworm-slim, vinext dev)
   │
