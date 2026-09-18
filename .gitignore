@@ -5,3 +5,4 @@ node_modules
 # 本地验证输出（抓取的 HTML / 探测结果），不进仓库
 verify_out_local/
 verify_out_test/
+verify_out/
