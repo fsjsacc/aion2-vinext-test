@@ -46,6 +46,9 @@ COPY worker/ ./worker/
 COPY data/ ./data/
 COPY *.ts *.mjs *.json ./
 
+# ── entrypoint（必须显式 COPY，*.* 通配不含 .sh）────────────────────────
+COPY entrypoint.sh /app/entrypoint.sh
+
 # ── 初始化数据（D1 / R2 / cache / game data）──────────────────────────
 COPY init-data/ /app/init-data/
 
