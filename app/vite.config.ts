@@ -59,6 +59,24 @@ export default defineConfig(async ({ command }) => {
   };
 
   return {
+    // ── 依赖预打包（optimizeDeps）──────────────────────────────────────
+    // lucide-react 的每个图标模块首行都是 `"use client"`。若让 Vite 对它
+    // 做预打包，rsc 环境会把它当成 client component 再 optimize 一遍，
+    // 于是 rsc/ssr/client 三个环境各自持有一份 **browserHash 不同** 的
+    // react 依赖链。当 RSC 渲染结果（如 vinext 的 shims/slot.js）被 rsc
+    // 环境 transform 时，注入的 `/node_modules/.vite/deps/react.js?v=<rsc hash>`
+    // 在 client 侧不存在 → 404/504 → React shared internals 为 null →
+    // "Cannot read properties of null (reading 'useContext')" → 整页崩溃。
+    //
+    // Vite 自身在启动时会就此打印 warning 并明确给出这条修复建议：
+    //   [vite] (rsc) warning: client component dependency is inconsistently
+    //   optimized. It's recommended to add the dependency to 'optimizeDeps.exclude'.
+    //
+    // 排除后 lucide-react 走源码 ESM 直连（它本身已是 ESM 产物），
+    // 不再产生第二份带不同 hash 的依赖链。
+    optimizeDeps: {
+      exclude: ["lucide-react"],
+    },
     server: {
       // 允许的 Host 头白名单。Vite 默认会校验 Host 以防 DNS rebinding，
       // 不在列表内的一律拒绝（返回 403 "Blocked request"）。
