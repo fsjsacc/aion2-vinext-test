@@ -23,6 +23,7 @@ services:
       - "traefik.http.routers.aion2-kina-prod.rule=Host(`www.aion2kina.com`) || Host(`aion2kina.com`)"
       - "traefik.http.routers.aion2-kina-prod.entrypoints=websecure"
       - "traefik.http.routers.aion2-kina-prod.tls=true"
+      - "traefik.http.routers.aion2-kina-prod.tls.certresolver=letsencrypt"
 
       - "traefik.http.services.aion2-kina-prod.loadbalancer.server.port=80"
 

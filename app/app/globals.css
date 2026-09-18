@@ -126,6 +126,12 @@ textarea {
   border-radius: 0;
 }
 
+/* 修复暗色主题下 select 下拉选项白底白字问题 */
+select option {
+  background: #1a1f2a;
+  color: #e8ecf1;
+}
+
 button,
 a {
   -webkit-tap-highlight-color: transparent;
