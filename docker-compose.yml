@@ -18,20 +18,12 @@ services:
     labels:
       - "traefik.enable=true"
 
-      # ── 正式验证域名 ────────────────────────────────────────────────
+      # ── 验证域名 ────────────────────────────────────────────────────
+      # test.aion2kina.com → CF 橙云 A → 2.25.206.13（proxied）
+      # CF 记录 id: 2cbf7648184fe1f2cc2dc62196bbf961
       - "traefik.http.routers.aion2-vinext-test.rule=Host(`test.aion2kina.com`)"
       - "traefik.http.routers.aion2-vinext-test.entrypoints=websecure"
       - "traefik.http.routers.aion2-vinext-test.tls=true"
-      - "traefik.http.routers.aion2-vinext-test.service=aion2-vinext-test"
-
-      # ── 免 DNS 验证通道 ─────────────────────────────────────────────
-      # test.aion2kina.com 的 DNS 记录尚未创建；此通道允许直接向
-      # 2.25.206.13 发 Host 头进行验证，无需等待 DNS 生效。
-      # 验证完成后可删除本段。
-      - "traefik.http.routers.aion2-vinext-test-ip.rule=Host(`test-aion2.2-25-206-13.sslip.io`)"
-      - "traefik.http.routers.aion2-vinext-test-ip.entrypoints=websecure"
-      - "traefik.http.routers.aion2-vinext-test-ip.tls=true"
-      - "traefik.http.routers.aion2-vinext-test-ip.service=aion2-vinext-test"
 
       - "traefik.http.services.aion2-vinext-test.loadbalancer.server.port=80"
 

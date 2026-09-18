@@ -198,10 +198,25 @@ chaotic-upper-reshanta         3       3       3       0  ✅ 全覆盖
 
 **两者完全独立，验证过程不影响线上。db11 保持运行，不做任何改动。**
 
+### DNS 配置（已完成）
+
+`test.aion2kina.com` 已在 Cloudflare 创建 A 记录：
+
+```
+zone    aion2kina.com        5444fe07aa23b1166525744ffd9e4543  (Jimsky88 账号)
+record  test.aion2kina.com   A -> 2.25.206.13   proxied=true
+id      2cbf7648184fe1f2cc2dc62196bbf961
+```
+
+流量路径：`CF 橙云 → 2.25.206.13:443 (Traefik) → nginx:80 → app:3000`
+
+> 与线上 `www.aion2kina.com` 用同一条 A 记录模式（`A → 2.25.206.13` + 橙云），
+> 由 Traefik 按 Host 头分流，互不干扰。
+
 ---
 
 ## 9. 待办
 
-- [ ] 在 Cloudflare 为 `test.aion2kina.com` 添加 A 记录 → `2.25.206.13`（橙云代理）
+- [x] 在 Cloudflare 为 `test.aion2kina.com` 添加 A 记录 → `2.25.206.13`（橙云代理）
 - [ ] 验证通过后，把同样的运行时改动应用到线上 `kina` compose
 - [ ] 同步修复线上部署仓库的 `package-lock.json`（pbf 版本不一致）
