@@ -1,0 +1,60 @@
+# AION2-KINA 临时隔离验证部署
+#
+# 目的：在 Dokploy 上验证「vinext dev」运行时能否完整复刻 db11
+# 隔离：独立 compose name / 独立域名 / 独立 volume，完全不碰线上 kina compose
+#
+# 架构：CF 橙云 → Traefik (443) → nginx:80 → app:3000
+#
+# 运行时：vinext dev --port 3000 --hostname 0.0.0.0
+#         （复刻 db11 app.service，仅 hostname 从 127.0.0.1 改为 0.0.0.0）
+
+services:
+  nginx:
+    build:
+      context: ./nginx
+    restart: unless-stopped
+    depends_on:
+      - app
+    labels:
+      - "traefik.enable=true"
+
+      # ── 正式验证域名 ────────────────────────────────────────────────
+      - "traefik.http.routers.aion2-vinext-test.rule=Host(`test.aion2kina.com`)"
+      - "traefik.http.routers.aion2-vinext-test.entrypoints=websecure"
+      - "traefik.http.routers.aion2-vinext-test.tls=true"
+      - "traefik.http.routers.aion2-vinext-test.service=aion2-vinext-test"
+
+      # ── 免 DNS 验证通道 ─────────────────────────────────────────────
+      # test.aion2kina.com 的 DNS 记录尚未创建；此通道允许直接向
+      # 2.25.206.13 发 Host 头进行验证，无需等待 DNS 生效。
+      # 验证完成后可删除本段。
+      - "traefik.http.routers.aion2-vinext-test-ip.rule=Host(`test-aion2.2-25-206-13.sslip.io`)"
+      - "traefik.http.routers.aion2-vinext-test-ip.entrypoints=websecure"
+      - "traefik.http.routers.aion2-vinext-test-ip.tls=true"
+      - "traefik.http.routers.aion2-vinext-test-ip.service=aion2-vinext-test"
+
+      - "traefik.http.services.aion2-vinext-test.loadbalancer.server.port=80"
+
+  app:
+    build:
+      context: ./app
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      # miniflare state（D1 / R2 / cache）持久化 —— 路径为项目根 .wrangler（vinext dev 约定）
+      - vinext-test-state:/app/.wrangler/state/v3
+      - vinext-test-data:/app/data
+    # 复刻 db11 MemoryHigh=2500M / MemoryMax=3000M
+    mem_limit: 3g
+    memswap_limit: 4g
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:3000/en/').then(r=>{if(!r.ok)throw 1})"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  vinext-test-state:
+    driver: local
+  vinext-test-data:
+    driver: local

@@ -1,0 +1,100 @@
+import type { ContentLocale } from "./site-config";
+
+export type ItemLocalizedText = Readonly<Record<ContentLocale, string>>;
+
+export type ItemDatabaseStat = {
+  id: string;
+  names: ItemLocalizedText;
+  minValue: string | null;
+  value: string | null;
+};
+
+export type ItemDatabaseRecord = {
+  id: string;
+  slug: string;
+  names: ItemLocalizedText;
+  icon: string;
+  gradeCode: string | null;
+  gradeNames: ItemLocalizedText;
+  categoryNames: ItemLocalizedText;
+  descriptions: ItemLocalizedText | null;
+  effects: ItemLocalizedText | null;
+  itemType: string | null;
+  itemLevel: number | null;
+  equipLevel: number | null;
+  raceNames: Readonly<Record<ContentLocale, readonly string[]>>;
+  classNames: Readonly<Record<ContentLocale, readonly string[]>>;
+  acquisition: ItemLocalizedText | null;
+  flags: {
+    storable: boolean | null;
+    tradable: boolean | null;
+    personalTradable: boolean | null;
+    enchantable: boolean | null;
+    decomposable: boolean | null;
+  };
+  maxEnchantLevel: number | null;
+  maxExceedEnchantLevel: number | null;
+  magicStoneSlots: number | null;
+  godStoneSlots: number | null;
+  mainStats: readonly ItemDatabaseStat[];
+  officialUrls: {
+    "zh-hant": string;
+    en: string;
+    ko: string;
+  };
+  snapshotDate: string;
+};
+
+export type ItemDatabaseCatalogCopy = {
+  seoTitle: string;
+  seoKeywords: readonly string[];
+  breadcrumbLabel: string;
+  eyebrow: string;
+  title: string;
+  description: string;
+  sourceNote: string;
+  searchLabel: string;
+  searchPlaceholder: string;
+  categoryLabel: string;
+  allCategories: string;
+  resultsLabel: (count: number) => string;
+  emptyTitle: string;
+  emptyDescription: string;
+  itemIdLabel: string;
+  levelLabel: string;
+  restrictionLabel: string;
+  officialSourceLabel: string;
+  detailsLabel: string;
+  clearLabel: string;
+  filterTitle: string;
+  filterOpenLabel: string;
+  filterCloseLabel: string;
+  classFilterLabel: string;
+  gradeFilterLabel: string;
+  categoryFilterLabel: string;
+  allLabel: string;
+  resultsTitle: string;
+  bookmarksLabel: string;
+  showBookmarksLabel: string;
+  showAllItemsLabel: string;
+  addBookmarkLabel: (name: string) => string;
+  removeBookmarkLabel: (name: string) => string;
+  columnNameLabel: string;
+  columnCategoryLabel: string;
+  columnDescriptionLabel: string;
+  noBookmarksTitle: string;
+  noBookmarksDescription: string;
+  previousPageLabel: string;
+  nextPageLabel: string;
+  pageLabel: (page: number, total: number) => string;
+  requestLoadingLabel: string;
+  requestErrorLabel: string;
+  retryLabel: string;
+  noClassRestrictionLabel: string;
+  itemImageAlt: (name: string, category: string) => string;
+  featuredEyebrow: string;
+  featuredTitle: string;
+  featuredDescription: string;
+  featuredDetailsLabel: string;
+  featuredIdLabel: string;
+};

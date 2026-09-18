@@ -1,0 +1,1523 @@
+{
+  "source": {
+    "build": "89ce3984d569ff1a03ee6311d064231211212981",
+    "attribution": "AION2 KINA map curation, in-game review, and NC official information",
+    "generatedAt": "2026-07-14T00:00:00.000Z",
+    "mapOriginProject": "appgprj_6a523ef77bd4819186c474a38167342c"
+  },
+  "locales": [
+    "zh-Hant",
+    "en",
+    "ko"
+  ],
+  "categories": {
+    "zh-Hant": {
+      "location": "地點",
+      "collection": "收集品",
+      "creature": "寵物",
+      "gathering": "採集點",
+      "quest": "任務"
+    },
+    "en": {
+      "location": "Location",
+      "collection": "Collectables",
+      "creature": "Pet",
+      "gathering": "Gathering",
+      "quest": "Quest"
+    },
+    "ko": {
+      "location": "위치",
+      "collection": "수집품",
+      "creature": "펫",
+      "gathering": "채집",
+      "quest": "퀘스트"
+    }
+  },
+  "maps": [
+    {
+      "name": "World_L_A",
+      "slug": "verteron",
+      "type": "light",
+      "width": 8192,
+      "height": 8192,
+      "sourceWidth": 8192,
+      "sourceHeight": 8192,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 1830,
+      "regionCount": 27,
+      "tilePreview": "/map-assets/maps/tiles/verteron/0/0/0.webp",
+      "categoryCounts": {
+        "collection": 739,
+        "location": 186,
+        "gathering": 631,
+        "creature": 274
+      },
+      "subtypeCounts": {
+        "monolithMaterial": 560,
+        "teleport": 61,
+        "seal": 61,
+        "hiddenCube": 139,
+        "village": 5,
+        "battlefield": 22,
+        "occupation": 15,
+        "gatheringAria": 41,
+        "rift": 9,
+        "gatheringTargena": 47,
+        "gatheringKukuru": 45,
+        "gatheringSapphireGemstone": 47,
+        "gatheringDiamondGemstone": 59,
+        "gatheringOrichalcumOre": 105,
+        "gatheringRubyGemstone": 43,
+        "gatheringYggdrasilLog": 54,
+        "gatheringMela": 35,
+        "gatheringInina": 44,
+        "gatheringCypri": 45,
+        "boss": 24,
+        "gatheringCoriolus": 49,
+        "creatureFeral": 134,
+        "creatureIntellect": 33,
+        "creatureNature": 86,
+        "creatureTrans": 21,
+        "christmasBox": 16,
+        "springBoard": 10,
+        "gatheringOdyle": 17,
+        "partyDungeon": 3
+      },
+      "locales": {
+        "zh-Hant": {
+          "name": "斐爾特朗（天族）",
+          "description": "斐爾特朗",
+          "sourceKey": "String_STR_Map_World_L_A_body"
+        },
+        "en": {
+          "name": "Verteron (Elyos)",
+          "description": "Verteron",
+          "sourceKey": "String_STR_Map_World_L_A_body"
+        },
+        "ko": {
+          "name": "베르테론 (천족)",
+          "description": "베르테론",
+          "sourceKey": "String_STR_Map_World_L_A_body"
+        }
+      }
+    },
+    {
+      "name": "World_D_A",
+      "slug": "altgard",
+      "type": "dark",
+      "width": 8192,
+      "height": 8192,
+      "sourceWidth": 8192,
+      "sourceHeight": 8192,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 1469,
+      "regionCount": 26,
+      "tilePreview": "/map-assets/maps/tiles/altgard/0/0/0.webp",
+      "categoryCounts": {
+        "collection": 729,
+        "location": 226,
+        "gathering": 301,
+        "creature": 213
+      },
+      "subtypeCounts": {
+        "hiddenCube": 130,
+        "seal": 61,
+        "monolithMaterial": 560,
+        "teleport": 61,
+        "village": 45,
+        "battlefield": 24,
+        "occupation": 15,
+        "gatheringCoriolus": 21,
+        "gatheringMela": 15,
+        "gatheringYggdrasilLog": 20,
+        "gatheringDiamondGemstone": 38,
+        "gatheringOrichalcumOre": 86,
+        "gatheringOdyle": 1,
+        "gatheringRubyGemstone": 31,
+        "gatheringKukuru": 43,
+        "boss": 20,
+        "rift": 10,
+        "creatureFeral": 108,
+        "creatureIntellect": 34,
+        "creatureNature": 39,
+        "creatureTrans": 32,
+        "gatheringTargena": 24,
+        "christmasBox": 19,
+        "partyDungeon": 3,
+        "springBoard": 7,
+        "gatheringSapphireGemstone": 20,
+        "gatheringInina": 1,
+        "gatheringCypri": 1
+      },
+      "locales": {
+        "zh-Hant": {
+          "name": "亞爾特蓋德（魔族）",
+          "description": "亞爾特蓋德",
+          "sourceKey": "String_STR_Map_World_D_A_body"
+        },
+        "en": {
+          "name": "Altgard (Asmodian)",
+          "description": "Altgard",
+          "sourceKey": "String_STR_Map_World_D_A_body"
+        },
+        "ko": {
+          "name": "알트가르드 (마족)",
+          "description": "알트가르드",
+          "sourceKey": "String_STR_Map_World_D_A_body"
+        }
+      }
+    },
+    {
+      "name": "World_L_B",
+      "slug": "eltnen",
+      "type": "light",
+      "width": 8192,
+      "height": 8192,
+      "sourceWidth": 8192,
+      "sourceHeight": 8192,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 725,
+      "regionCount": 0,
+      "tilePreview": "/map-assets/maps/tiles/eltnen/0/0/0.webp",
+      "categoryCounts": {
+        "collection": 178,
+        "location": 46,
+        "gathering": 501
+      },
+      "subtypeCounts": {
+        "monolithMaterial": 140,
+        "hiddenCube": 26,
+        "seal": 20,
+        "occupation": 6,
+        "teleport": 20,
+        "boss": 12,
+        "gatheringCoriolus": 43,
+        "gatheringInina": 38,
+        "gatheringSapphireGemstone": 70,
+        "gatheringDiamondGemstone": 50,
+        "gatheringMela": 52,
+        "gatheringAria": 70,
+        "gatheringYggdrasilLog": 50,
+        "gatheringKukuru": 45,
+        "gatheringCypri": 19,
+        "gatheringTargena": 64
+      },
+      "locales": {
+        "zh-Hant": {
+          "name": "耶爾特奈（天族）",
+          "description": "耶爾特奈",
+          "sourceKey": "String_STR_Map_World_L_B_body"
+        },
+        "en": {
+          "name": "Eltnen (Elyos)",
+          "description": "Eltnen",
+          "sourceKey": "String_STR_Map_World_L_B_body"
+        },
+        "ko": {
+          "name": "엘테넨 (천족)",
+          "description": "엘테넨",
+          "sourceKey": "String_STR_Map_World_L_B_body"
+        }
+      }
+    },
+    {
+      "name": "World_D_B",
+      "slug": "morheim",
+      "type": "dark",
+      "width": 8192,
+      "height": 8192,
+      "sourceWidth": 8192,
+      "sourceHeight": 8192,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 0,
+      "regionCount": 0,
+      "tilePreview": "/map-assets/maps/tiles/morheim/0/0/0.webp",
+      "categoryCounts": {},
+      "subtypeCounts": {},
+      "locales": {
+        "zh-Hant": {
+          "name": "莫爾海姆（魔族）",
+          "description": "莫爾海姆",
+          "sourceKey": "String_STR_Map_World_D_B_body"
+        },
+        "en": {
+          "name": "Morheim (Asmodian)",
+          "description": "Morheim",
+          "sourceKey": "String_STR_Map_World_D_B_body"
+        },
+        "ko": {
+          "name": "모르헤임 (마족)",
+          "description": "모르헤임",
+          "sourceKey": "String_STR_Map_World_D_B_body"
+        }
+      }
+    },
+    {
+      "name": "World_L_Starter",
+      "slug": "poeta",
+      "type": "light",
+      "width": 4096,
+      "height": 4096,
+      "sourceWidth": 4096,
+      "sourceHeight": 4096,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 0,
+      "regionCount": 0,
+      "tilePreview": "/map-assets/maps/tiles/poeta/0/0/0.webp",
+      "categoryCounts": {},
+      "subtypeCounts": {},
+      "locales": {
+        "zh-Hant": {
+          "name": "波伊塔（天族）",
+          "description": "波伊塔",
+          "sourceKey": "String_STR_Map_Poeta_body"
+        },
+        "en": {
+          "name": "Poeta (Elyos)",
+          "description": "Poeta",
+          "sourceKey": "String_STR_Map_Poeta_body"
+        },
+        "ko": {
+          "name": "포에타 (천족)",
+          "description": "포에타",
+          "sourceKey": "String_STR_Map_Poeta_body"
+        }
+      }
+    },
+    {
+      "name": "World_D_Starter",
+      "slug": "ishalgen",
+      "type": "dark",
+      "width": 5120,
+      "height": 5120,
+      "sourceWidth": 5120,
+      "sourceHeight": 5120,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 0,
+      "regionCount": 0,
+      "tilePreview": "/map-assets/maps/tiles/ishalgen/0/0/0.webp",
+      "categoryCounts": {},
+      "subtypeCounts": {},
+      "locales": {
+        "zh-Hant": {
+          "name": "伊斯夏爾肯（魔族）",
+          "description": "伊斯夏爾肯",
+          "sourceKey": "String_STR_Map_World_D_Starter_body"
+        },
+        "en": {
+          "name": "Ishalgen (Asmodian)",
+          "description": "Ishalgen",
+          "sourceKey": "String_STR_Map_World_D_Starter_body"
+        },
+        "ko": {
+          "name": "이스할겐 (마족)",
+          "description": "이스할겐",
+          "sourceKey": "String_STR_Map_World_D_Starter_body"
+        }
+      }
+    },
+    {
+      "name": "Abyss_Reshanta_A",
+      "slug": "chaotic-lower-reshanta",
+      "type": "abyss",
+      "width": 4096,
+      "height": 4096,
+      "sourceWidth": 4096,
+      "sourceHeight": 4096,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 346,
+      "regionCount": 0,
+      "tilePreview": "/map-assets/maps/tiles/chaotic-lower-reshanta/0/0/0.webp",
+      "categoryCounts": {
+        "collection": 205,
+        "location": 61,
+        "creature": 80
+      },
+      "subtypeCounts": {
+        "monolithMaterial": 200,
+        "teleport": 2,
+        "village": 2,
+        "battlefield": 5,
+        "abyssArtifact": 3,
+        "flightRing": 46,
+        "monolith": 2,
+        "partyDungeon": 1,
+        "boss": 5,
+        "creatureNature": 17,
+        "creatureFeral": 20,
+        "creatureTrans": 30,
+        "creatureIntellect": 13
+      },
+      "locales": {
+        "zh-Hant": {
+          "name": "渾沌艾雷修藍塔下層",
+          "description": "渾沌艾雷修藍塔下層",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_A_body"
+        },
+        "en": {
+          "name": "Chaotic Lower Reshanta",
+          "description": "Chaotic Lower Reshanta",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_A_body"
+        },
+        "ko": {
+          "name": "혼돈의 에레슈란타 하층",
+          "description": "혼돈의 에레슈란타 하층",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_A_body"
+        }
+      }
+    },
+    {
+      "name": "Abyss_Reshanta_B",
+      "slug": "chaotic-middle-reshanta",
+      "type": "abyss",
+      "width": 2048,
+      "height": 2048,
+      "sourceWidth": 2048,
+      "sourceHeight": 2048,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 135,
+      "regionCount": 0,
+      "tilePreview": "/map-assets/maps/tiles/chaotic-middle-reshanta/0/0/0.webp",
+      "categoryCounts": {
+        "collection": 103,
+        "location": 32
+      },
+      "subtypeCounts": {
+        "monolithMaterial": 101,
+        "abyssArtifact": 3,
+        "teleport": 2,
+        "monolith": 1,
+        "village": 2,
+        "battlefield": 3,
+        "flightRing": 21,
+        "boss": 2
+      },
+      "locales": {
+        "zh-Hant": {
+          "name": "渾沌艾雷修藍塔中層",
+          "description": "渾沌艾雷修藍塔中層",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_B_body"
+        },
+        "en": {
+          "name": "Chaotic Middle Reshanta",
+          "description": "Chaotic Middle Reshanta",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_B_body"
+        },
+        "ko": {
+          "name": "혼돈의 에레슈란타 중층",
+          "description": "혼돈의 에레슈란타 중층",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_B_body"
+        }
+      }
+    },
+    {
+      "name": "Abyss_Reshanta_C",
+      "slug": "chaotic-upper-reshanta",
+      "type": "abyss",
+      "width": 2048,
+      "height": 2048,
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "scaleX": 2,
+      "scaleY": 2,
+      "markerCount": 3,
+      "regionCount": 0,
+      "tilePreview": "/map-assets/maps/tiles/chaotic-upper-reshanta/0/0/0.webp",
+      "categoryCounts": {
+        "location": 3
+      },
+      "subtypeCounts": {
+        "abyssArtifact": 3
+      },
+      "locales": {
+        "zh-Hant": {
+          "name": "渾沌艾雷修藍塔上層",
+          "description": "渾沌艾雷修藍塔上層",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_C_body"
+        },
+        "en": {
+          "name": "Chaotic Upper Reshanta",
+          "description": "Chaotic Upper Reshanta",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_C_body"
+        },
+        "ko": {
+          "name": "혼돈의 에레슈란타 상층",
+          "description": "혼돈의 에레슈란타 상층",
+          "sourceKey": "String_STR_Map_Abyss_Reshanta_C_body"
+        }
+      }
+    },
+    {
+      "name": "ReforgedAbyss",
+      "slug": "abyss-rift-zone",
+      "type": "abyss",
+      "width": 8192,
+      "height": 10240,
+      "sourceWidth": 8192,
+      "sourceHeight": 10240,
+      "scaleX": 1,
+      "scaleY": 1,
+      "markerCount": 0,
+      "regionCount": 0,
+      "tilePreview": "/map-assets/maps/tiles/abyss-rift-zone/0/0/0.webp",
+      "categoryCounts": {},
+      "subtypeCounts": {},
+      "locales": {
+        "zh-Hant": {
+          "name": "深淵裂隙區域",
+          "description": "深淵裂隙區域",
+          "sourceKey": "String_STR_Map_ReforgedAbyss_body"
+        },
+        "en": {
+          "name": "Abyss Rift Zone",
+          "description": "Abyss Rift Zone",
+          "sourceKey": "String_STR_Map_ReforgedAbyss_body"
+        },
+        "ko": {
+          "name": "심연 균열 지대",
+          "description": "심연 균열 지대",
+          "sourceKey": "String_STR_Map_ReforgedAbyss_body"
+        }
+      }
+    }
+  ],
+  "poisByMap": {
+    "verteron": [
+      {
+        "id": "036cccc1-c118-4b73-8262-9332f7a9f2a7",
+        "slug": "rotten-kutar-036cccc1",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "EllunRiverMarsh",
+        "sourceX": 3845,
+        "sourceY": 4914,
+        "locales": {
+          "zh-Hant": {
+            "name": "腐朽的庫塔爾",
+            "description": "重新整理間隔1小時"
+          },
+          "en": {
+            "name": "Rotten Kutar",
+            "description": "Respawns every 1 hours"
+          },
+          "ko": {
+            "name": "썩은 쿠타르",
+            "description": "재등장 주기 1시간"
+          }
+        }
+      },
+      {
+        "id": "99fe42ad-bd58-4ab5-affd-1423ce7577ca",
+        "slug": "neikel-of-the-east-99fe42ad",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3504,
+        "sourceY": 4984,
+        "locales": {
+          "zh-Hant": {
+            "name": "東側涅凱爾",
+            "description": "重新整理間隔1小時"
+          },
+          "en": {
+            "name": "Neikel of the East",
+            "description": "Respawns every 1 hours"
+          },
+          "ko": {
+            "name": "동쪽의 네이켈",
+            "description": "재등장 주기 1시간"
+          }
+        }
+      },
+      {
+        "id": "fbc51970-6cf5-4e4e-8ca5-1a65d88f9ffa",
+        "slug": "blooming-korin-fbc51970",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3745,
+        "sourceY": 4464,
+        "locales": {
+          "zh-Hant": {
+            "name": "盛開的柯林",
+            "description": "重新整理間隔2小時"
+          },
+          "en": {
+            "name": "Blooming Korin",
+            "description": "Respawns every 2 hours"
+          },
+          "ko": {
+            "name": "만개한 코린",
+            "description": "재등장 주기 2시간"
+          }
+        }
+      },
+      {
+        "id": "2e339377-9228-445e-a0dd-5dc43cb08c72",
+        "slug": "kusan-the-mad-gladiator-2e339377",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3910,
+        "sourceY": 4200,
+        "locales": {
+          "zh-Hant": {
+            "name": "狂鬥士庫森",
+            "description": "重新整理間隔4小時"
+          },
+          "en": {
+            "name": "Kusan the Mad Gladiator",
+            "description": "Respawns every 4 hours"
+          },
+          "ko": {
+            "name": "광투사 쿠산",
+            "description": "재등장 주기 4시간"
+          }
+        }
+      },
+      {
+        "id": "45b4c19a-31ee-4688-b630-85c89e96a4a9",
+        "slug": "ritualist-garshim-45b4c19a",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3827,
+        "sourceY": 3896,
+        "locales": {
+          "zh-Hant": {
+            "name": "祭司長加爾新",
+            "description": "重新整理間隔4小時"
+          },
+          "en": {
+            "name": "Ritualist Garshim",
+            "description": "Respawns every 4 hours"
+          },
+          "ko": {
+            "name": "제사장 가르심",
+            "description": "재등장 주기 4시간"
+          }
+        }
+      },
+      {
+        "id": "08dc92f7-00f2-4297-a5f8-c8c33174dbdd",
+        "slug": "bloodfang-pnyn-08dc92f7",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3509,
+        "sourceY": 3531,
+        "locales": {
+          "zh-Hant": {
+            "name": "血獠牙普寧",
+            "description": "重新整理間隔6小時"
+          },
+          "en": {
+            "name": "Bloodfang Pnyn",
+            "description": "Respawns every 6 hours"
+          },
+          "ko": {
+            "name": "피송곳니 프닌",
+            "description": "재등장 주기 6시간"
+          }
+        }
+      },
+      {
+        "id": "ef19dce1-53ea-4c4c-b9e7-204c34e3295f",
+        "slug": "furious-saursus-ef19dce1",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3517,
+        "sourceY": 3265,
+        "locales": {
+          "zh-Hant": {
+            "name": "憤怒的薩呂",
+            "description": "重新整理間隔6小時"
+          },
+          "en": {
+            "name": "Furious Saursus",
+            "description": "Respawns every 6 hours"
+          },
+          "ko": {
+            "name": "분노한 사루스",
+            "description": "재등장 주기 6시간"
+          }
+        }
+      },
+      {
+        "id": "58f8c41e-965f-44d4-9173-09c4843aa9e1",
+        "slug": "scholar-aulla-58f8c41e",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3632,
+        "sourceY": 3095,
+        "locales": {
+          "zh-Hant": {
+            "name": "學者拉兀拉",
+            "description": "重新整理間隔4小時"
+          },
+          "en": {
+            "name": "Scholar Aulla",
+            "description": "Respawns every 4 hours"
+          },
+          "ko": {
+            "name": "학자 라울라",
+            "description": "재등장 주기 4시간"
+          }
+        }
+      },
+      {
+        "id": "f3636187-739e-40dd-8f09-b07c52fed797",
+        "slug": "chaser-taulo-f3636187",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3457,
+        "sourceY": 2905,
+        "locales": {
+          "zh-Hant": {
+            "name": "追擊者塔兀羅",
+            "description": "重新整理間隔4小時"
+          },
+          "en": {
+            "name": "Chaser Taulo",
+            "description": "Respawns every 4 hours"
+          },
+          "ko": {
+            "name": "추격자 타울로",
+            "description": "재등장 주기 4시간"
+          }
+        }
+      },
+      {
+        "id": "6118e3ed-129f-40a8-8b39-6a0ea11f83b8",
+        "slug": "silent-dartan-6118e3ed",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4240,
+        "sourceY": 2673,
+        "locales": {
+          "zh-Hant": {
+            "name": "沉默塔爾坦",
+            "description": "重新整理間隔12小時"
+          },
+          "en": {
+            "name": "Silent Dartan",
+            "description": "Respawns every 12 hours"
+          },
+          "ko": {
+            "name": "침묵의 타르탄",
+            "description": "재등장 주기 12시간"
+          }
+        }
+      },
+      {
+        "id": "463b28ab-1c31-48d8-a4d8-920b0e9f016d",
+        "slug": "heretic-layla-463b28ab",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4284,
+        "sourceY": 3142,
+        "locales": {
+          "zh-Hant": {
+            "name": "叛教者雷拉",
+            "description": "重新整理間隔6小時"
+          },
+          "en": {
+            "name": "Heretic Layla",
+            "description": "Respawns every 6 hours"
+          },
+          "ko": {
+            "name": "배교자 레일라",
+            "description": "재등장 주기 6시간"
+          }
+        }
+      },
+      {
+        "id": "bcfb2b49-9436-4df0-a288-74a2cc2365e3",
+        "slug": "phantasm-kasia-bcfb2b49",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4940,
+        "sourceY": 2302,
+        "locales": {
+          "zh-Hant": {
+            "name": "幻夢卡西亞",
+            "description": "重新整理間隔12小時"
+          },
+          "en": {
+            "name": "Phantasm Kasia",
+            "description": "Respawns every 12 hours"
+          },
+          "ko": {
+            "name": "환몽의 카시아",
+            "description": "재등장 주기 12시간"
+          }
+        }
+      },
+      {
+        "id": "a842db37-f872-456d-a42f-50cdcc4924f6",
+        "slug": "black-tentacle-lawa-a842db37",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5084,
+        "sourceY": 3352,
+        "locales": {
+          "zh-Hant": {
+            "name": "黑色觸手拉瓦",
+            "description": "重新整理間隔12小時"
+          },
+          "en": {
+            "name": "Black Tentacle Lawa",
+            "description": "Respawns every 12 hours"
+          },
+          "ko": {
+            "name": "검은 촉수 라와",
+            "description": "재등장 주기 12시간"
+          }
+        }
+      },
+      {
+        "id": "1419a7c8-8f43-489a-a933-7aebfd2809b8",
+        "slug": "soul-ruler-kashapa-1419a7c8",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5479,
+        "sourceY": 3372,
+        "locales": {
+          "zh-Hant": {
+            "name": "靈魂支配者卡沙帕",
+            "description": "重新整理間隔12小時"
+          },
+          "en": {
+            "name": "Soul Ruler Kashapa",
+            "description": "Respawns every 12 hours"
+          },
+          "ko": {
+            "name": "영혼 지배자 카샤파",
+            "description": "재등장 주기 12시간"
+          }
+        }
+      },
+      {
+        "id": "ffb267ac-77d6-4ab1-9304-5e98b0fd9cd8",
+        "slug": "divine-ansas-ffb267ac",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5533,
+        "sourceY": 3740,
+        "locales": {
+          "zh-Hant": {
+            "name": "神聖的安薩斯",
+            "description": "重新整理間隔12小時"
+          },
+          "en": {
+            "name": "Divine Ansas",
+            "description": "Respawns every 12 hours"
+          },
+          "ko": {
+            "name": "신성한 안사스",
+            "description": "재등장 주기 12시간"
+          }
+        }
+      },
+      {
+        "id": "fdc029f7-5684-4e2a-af3c-f08325bb8090",
+        "slug": "centurion-demiros-fdc029f7",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5349,
+        "sourceY": 3983,
+        "locales": {
+          "zh-Hant": {
+            "name": "百夫長戴米羅斯",
+            "description": "重新整理間隔8小時"
+          },
+          "en": {
+            "name": "Centurion Demiros",
+            "description": "Respawns every 8 hours"
+          },
+          "ko": {
+            "name": "백부장 데미로스",
+            "description": "재등장 주기 8시간"
+          }
+        }
+      },
+      {
+        "id": "1e2107f3-8424-4467-b485-b10008f1cff4",
+        "slug": "bodyguard-teegant-1e2107f3",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4283,
+        "sourceY": 4098,
+        "locales": {
+          "zh-Hant": {
+            "name": "護衛兵提甘特",
+            "description": "重新整理間隔3小時"
+          },
+          "en": {
+            "name": "Bodyguard Teegant",
+            "description": "Respawns every 3 hours"
+          },
+          "ko": {
+            "name": "호위병 티간트",
+            "description": "재등장 주기 3시간"
+          }
+        }
+      },
+      {
+        "id": "9a41dba0-6e80-483a-b982-53148f0b50c3",
+        "slug": "high-commander-lagta-9a41dba0",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4826,
+        "sourceY": 4767,
+        "locales": {
+          "zh-Hant": {
+            "name": "軍團長拉格塔",
+            "description": "重新整理間隔24小時"
+          },
+          "en": {
+            "name": "High Commander Lagta",
+            "description": "Respawns every 24 hours"
+          },
+          "ko": {
+            "name": "군단장 라그타",
+            "description": "재등장 주기 24시간"
+          }
+        }
+      },
+      {
+        "id": "b682f0f5-c464-46fb-9e03-d64194e33682",
+        "slug": "sentinel-k-nash-b682f0f5",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5409,
+        "sourceY": 4880,
+        "locales": {
+          "zh-Hant": {
+            "name": "監視兵器克納許",
+            "description": "重新整理間隔8小時"
+          },
+          "en": {
+            "name": "Sentinel K'nash",
+            "description": "Respawns every 8 hours"
+          },
+          "ko": {
+            "name": "감시병기 크나쉬",
+            "description": "재등장 주기 8시간"
+          }
+        }
+      },
+      {
+        "id": "447366c3-3ab2-4ffc-8132-1374ae30c5f3",
+        "slug": "harvest-manager-moshav-447366c3",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5273,
+        "sourceY": 5066,
+        "locales": {
+          "zh-Hant": {
+            "name": "收穫管理者莫夏夫",
+            "description": "重新整理間隔6小時"
+          },
+          "en": {
+            "name": "Harvest Manager Moshav",
+            "description": "Respawns every 6 hours"
+          },
+          "ko": {
+            "name": "수확관리자 모샤브",
+            "description": "재등장 주기 6시간"
+          }
+        }
+      },
+      {
+        "id": "0546b29f-c926-4ff8-aea7-4d87124d9591",
+        "slug": "researcher-setram-0546b29f",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5692,
+        "sourceY": 5407,
+        "locales": {
+          "zh-Hant": {
+            "name": "研究官塞特蘭",
+            "description": "重新整理間隔12小時"
+          },
+          "en": {
+            "name": "Researcher Setram",
+            "description": "Respawns every 12 hours"
+          },
+          "ko": {
+            "name": "연구관 세트람",
+            "description": "재등장 주기 12시간"
+          }
+        }
+      },
+      {
+        "id": "9d0b7986-4c60-46a8-a206-9012daf2ad4f",
+        "slug": "eternal-gartua-9d0b7986",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 1889,
+        "sourceY": 1647,
+        "locales": {
+          "zh-Hant": {
+            "name": "永恆卡爾吐亞",
+            "description": "重新整理間隔24小時"
+          },
+          "en": {
+            "name": "Eternal Gartua",
+            "description": "Respawns every 24 hours"
+          },
+          "ko": {
+            "name": "영원의 가르투아",
+            "description": "재등장 주기 24시간"
+          }
+        }
+      },
+      {
+        "id": "2f438df2-996d-4516-97e0-13751855fbec",
+        "slug": "roah-2f438df2",
+        "typeSlug": null,
+        "indexable": false,
+        "subtype": "seal",
+        "category": "location",
+        "region": "",
+        "sourceX": 2787,
+        "sourceY": 3413,
+        "locales": {
+          "zh-Hant": {
+            "name": "古代城市羅伊廢墟",
+            "description": "古代城市羅伊廢墟"
+          },
+          "en": {
+            "name": "Ruins of the Ancient City of Roah",
+            "description": "Ruins of the Ancient City of Roah"
+          },
+          "ko": {
+            "name": "고대도시 루의 폐허",
+            "description": "고대도시 루의 폐허"
+          }
+        }
+      }
+    ],
+    "altgard": [
+      {
+        "id": "52563fe7-5872-4e46-ae6f-b95d26a370d7",
+        "slug": "black-warrior-aed-52563fe7",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 2556,
+        "sourceY": 5068,
+        "locales": {
+          "zh-Hant": {
+            "name": "黑色戰士阿埃德",
+            "description": "重新整理間隔1小時"
+          },
+          "en": {
+            "name": "Black Warrior Aed",
+            "description": "Respawns every 1 hours"
+          },
+          "ko": {
+            "name": "검은 전사 아에드",
+            "description": "재등장 주기 1시간"
+          }
+        }
+      },
+      {
+        "id": "50c4068a-062d-46ae-b8ab-c71eddc71044",
+        "slug": "melted-danar-50c4068a",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3302,
+        "sourceY": 4852,
+        "locales": {
+          "zh-Hant": {
+            "name": "融化的達納樂",
+            "description": "重新整理間隔1小時"
+          },
+          "en": {
+            "name": "Melted Danar",
+            "description": "Respawns every 1 hours"
+          },
+          "ko": {
+            "name": "녹아내린 다나르",
+            "description": "재등장 주기 1시간"
+          }
+        }
+      },
+      {
+        "id": "8ff06d66-95d2-4b94-8702-f073293c5b47",
+        "slug": "silent-dartan-8ff06d66",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5296,
+        "sourceY": 5200,
+        "locales": {
+          "zh-Hant": {
+            "name": "沉默塔爾坦",
+            "description": "重新整理間隔2小時"
+          },
+          "en": {
+            "name": "Silent Dartan",
+            "description": "Respawns every 2 hours"
+          },
+          "ko": {
+            "name": "침묵의 타르탄",
+            "description": "재등장 주기 2시간"
+          }
+        }
+      },
+      {
+        "id": "93b0fc64-370d-460e-8b56-428e10faaac2",
+        "slug": "soul-ruler-kashapa-93b0fc64",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5590,
+        "sourceY": 3380,
+        "locales": {
+          "zh-Hant": {
+            "name": "靈魂支配者卡沙帕",
+            "description": "重新整理間隔12小時"
+          },
+          "en": {
+            "name": "Soul Ruler Kashapa",
+            "description": "Respawns every 12 hours"
+          },
+          "ko": {
+            "name": "영혼 지배자 카샤파",
+            "description": "재등장 주기 12시간"
+          }
+        }
+      },
+      {
+        "id": "2e74b353-428b-4d06-95d3-ca0e52d2098d",
+        "slug": "high-commander-lagta-2e74b353",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3856,
+        "sourceY": 2546,
+        "locales": {
+          "zh-Hant": {
+            "name": "軍團長拉格塔",
+            "description": "重新整理間隔24小時"
+          },
+          "en": {
+            "name": "High Commander Lagta",
+            "description": "Respawns every 24 hours"
+          },
+          "ko": {
+            "name": "군단장 라그타",
+            "description": "재등장 주기 24시간"
+          }
+        }
+      },
+      {
+        "id": "5ad52820-3a42-4900-8e39-541ff0525c3b",
+        "slug": "special-operations-leader-linx-5ad52820",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5511,
+        "sourceY": 5128,
+        "locales": {
+          "zh-Hant": {
+            "name": "別動隊長令克斯",
+            "description": "重新整理間隔6小時"
+          },
+          "en": {
+            "name": "Special Operations Leader Linx",
+            "description": "Respawns every 6 hours"
+          },
+          "ko": {
+            "name": "별동대장 링크스",
+            "description": "재등장 주기 6시간"
+          }
+        }
+      },
+      {
+        "id": "9473c256-4c3c-4d4d-8ff8-aa94439d1d54",
+        "slug": "advisor-resana-9473c256",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4789,
+        "sourceY": 5933,
+        "locales": {
+          "zh-Hant": {
+            "name": "參謀官勒沙納",
+            "description": "重新整理間隔6小時"
+          },
+          "en": {
+            "name": "Advisor Resana",
+            "description": "Respawns every 6 hours"
+          },
+          "ko": {
+            "name": "참모관 르사나",
+            "description": "재등장 주기 6시간"
+          }
+        }
+      },
+      {
+        "id": "b766633c-66f1-47e5-a8bf-b93c4c757635",
+        "slug": "dark-shadow-vishwada-b766633c",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4049,
+        "sourceY": 2491,
+        "locales": {
+          "zh-Hant": {
+            "name": "黑闇比修貝達",
+            "description": "重新整理間隔12小時"
+          },
+          "en": {
+            "name": "Dark Shadow Vishwada",
+            "description": "Respawns every 12 hours"
+          },
+          "ko": {
+            "name": "흑암의 비슈베다",
+            "description": "재등장 주기 12시간"
+          }
+        }
+      },
+      {
+        "id": "bf63062a-7e06-4dbb-a26f-d5d9c5b5efc6",
+        "slug": "visionary-karuka-bf63062a",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4795,
+        "sourceY": 2523,
+        "locales": {
+          "zh-Hant": {
+            "name": "祕傳卡魯卡",
+            "description": "重新整理間隔8小時"
+          },
+          "en": {
+            "name": "Visionary Karuka",
+            "description": "Respawns every 8 hours"
+          },
+          "ko": {
+            "name": "비전의 카루카",
+            "description": "재등장 주기 8시간"
+          }
+        }
+      },
+      {
+        "id": "a67ac181-e491-48f3-b867-b955dcff1184",
+        "slug": "deceiver-trid-a67ac181",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4329,
+        "sourceY": 4520,
+        "locales": {
+          "zh-Hant": {
+            "name": "欺瞞者特里德",
+            "description": "重新整理間隔4小時"
+          },
+          "en": {
+            "name": "Deceiver Trid",
+            "description": "Respawns every 4 hours"
+          },
+          "ko": {
+            "name": "기만자 트리드",
+            "description": "재등장 주기 4시간"
+          }
+        }
+      },
+      {
+        "id": "5c581bad-68a7-4670-84eb-99244ddfdcca",
+        "slug": "desecrator-newbold-5c581bad",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 6094,
+        "sourceY": 5273,
+        "locales": {
+          "zh-Hant": {
+            "name": "褻瀆者諾布魯德",
+            "description": "重新整理間隔8小時"
+          },
+          "en": {
+            "name": "Desecrator Newbold",
+            "description": "Respawns every 8 hours"
+          },
+          "ko": {
+            "name": "모독자 노블루드",
+            "description": "재등장 주기 8시간"
+          }
+        }
+      },
+      {
+        "id": "401020af-aa0b-464d-a86b-c5d045752ad5",
+        "slug": "addicted-hardirun-401020af",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5244,
+        "sourceY": 3759,
+        "locales": {
+          "zh-Hant": {
+            "name": "中毒的哈迪倫",
+            "description": "重新整理間隔6小時"
+          },
+          "en": {
+            "name": "Addicted Hardirun",
+            "description": "Respawns every 6 hours"
+          },
+          "ko": {
+            "name": "중독된 하디룬",
+            "description": "재등장 주기 6시간"
+          }
+        }
+      },
+      {
+        "id": "bcbf117e-114d-4b3c-ad3b-fbbe9119cff1",
+        "slug": "high-overseer-nutah-bcbf117e",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4772,
+        "sourceY": 5552,
+        "locales": {
+          "zh-Hant": {
+            "name": "總監督官努塔",
+            "description": "重新整理間隔4小時"
+          },
+          "en": {
+            "name": "High Overseer Nutah",
+            "description": "Respawns every 4 hours"
+          },
+          "ko": {
+            "name": "총감독관 누타",
+            "description": "재등장 주기 4시간"
+          }
+        }
+      },
+      {
+        "id": "dd187f78-d862-42fe-930f-12503a84d57d",
+        "slug": "veteran-shujakan-dd187f78",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 5108,
+        "sourceY": 2633,
+        "locales": {
+          "zh-Hant": {
+            "name": "百戰老將舒札坎",
+            "description": "重新整理間隔6小時"
+          },
+          "en": {
+            "name": "Veteran Shujakan",
+            "description": "Respawns every 6 hours"
+          },
+          "ko": {
+            "name": "백전노장 슈자칸",
+            "description": "재등장 주기 6시간"
+          }
+        }
+      },
+      {
+        "id": "1ae47541-d23f-473a-89bc-7b5cf4032353",
+        "slug": "faithful-rajit-1ae47541",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 2430,
+        "sourceY": 4352,
+        "locales": {
+          "zh-Hant": {
+            "name": "忠實的拉吉特",
+            "description": "重新整理間隔1小時"
+          },
+          "en": {
+            "name": "Faithful Rajit",
+            "description": "Respawns every 1 hours"
+          },
+          "ko": {
+            "name": "충실한 라지트",
+            "description": "재등장 주기 1시간"
+          }
+        }
+      },
+      {
+        "id": "27c630ee-fb90-4355-8eb8-b252ce8df5a5",
+        "slug": "predator-garsan-27c630ee",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 3519,
+        "sourceY": 3669,
+        "locales": {
+          "zh-Hant": {
+            "name": "捕食者加爾桑",
+            "description": "重新整理間隔2小時"
+          },
+          "en": {
+            "name": "Predator Garsan",
+            "description": "Respawns every 2 hours"
+          },
+          "ko": {
+            "name": "포식자 가르산",
+            "description": "재등장 주기 2시간"
+          }
+        }
+      },
+      {
+        "id": "3a07434a-c4cc-4f6a-8e51-222ec35ccac2",
+        "slug": "blue-wave-kelpina-3a07434a",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 4321,
+        "sourceY": 4822,
+        "locales": {
+          "zh-Hant": {
+            "name": "藍色水波凱匹那",
+            "description": "重新整理間隔2小時"
+          },
+          "en": {
+            "name": "Blue Wave Kelpina",
+            "description": "Respawns every 2 hours"
+          },
+          "ko": {
+            "name": "푸른물결 켈피나",
+            "description": "재등장 주기 2시간"
+          }
+        }
+      },
+      {
+        "id": "ba134768-0b6c-436e-ad3b-031d1dc66043",
+        "slug": "berserker-vargor-ba134768",
+        "typeSlug": "world-boss",
+        "indexable": false,
+        "subtype": "boss",
+        "category": "collection",
+        "region": "",
+        "sourceX": 2563,
+        "sourceY": 5225,
+        "locales": {
+          "zh-Hant": {
+            "name": "狂戰士瓦格",
+            "description": "重新整理間隔1小時"
+          },
+          "en": {
+            "name": "Berserker Vargor",
+            "description": "Respawns every 1 hours"
+          },
+          "ko": {
+            "name": "광전사 발그",
+            "description": "재등장 주기 1시간"
+          }
+        }
+      }
+    ]
+  }
+}

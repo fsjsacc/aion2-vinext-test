@@ -1,0 +1,230 @@
+.page {
+  min-height: 100svh;
+  padding: 32px 20px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+  color: #eef7ff;
+  background:
+    radial-gradient(circle at 18% 15%, rgba(89, 195, 241, .14), transparent 27rem),
+    radial-gradient(circle at 84% 82%, rgba(139, 103, 231, .13), transparent 31rem),
+    #050a12;
+  font-family: Arial, "Noto Sans TC", sans-serif;
+}
+
+.ambient {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .28;
+  background-image:
+    linear-gradient(rgba(125, 206, 243, .055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 206, 243, .055) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(circle at center, black, transparent 70%);
+}
+
+.loginShell {
+  width: min(500px, 100%);
+  position: relative;
+  border: 1px solid #263a4c;
+  border-radius: 21px;
+  overflow: hidden;
+  background: linear-gradient(155deg, rgba(15, 25, 38, .98), rgba(7, 13, 22, .98));
+  box-shadow: 0 38px 110px rgba(0, 0, 0, .5), 0 0 0 1px rgba(121, 214, 255, .03) inset;
+}
+
+.brandHeader {
+  min-height: 72px;
+  padding: 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border-bottom: 1px solid #1e2d3b;
+  background: rgba(5, 11, 18, .64);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand img { width: 48px; height: 38px; object-fit: contain; }
+.brand span { display: grid; line-height: 1; }
+.brand strong { font-size: 14px; letter-spacing: .12em; }
+.brand small { margin-top: 5px; color: #74d1ff; font-size: 7px; letter-spacing: .28em; }
+
+.privateBadge {
+  padding: 7px 9px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #8fa8bb;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  border: 1px solid #2a3b49;
+  border-radius: 99px;
+}
+
+.content { padding: 38px 40px 34px; }
+.securityMark {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  color: #75d9ff;
+  border: 1px solid rgba(117, 217, 255, .27);
+  border-radius: 15px;
+  background: rgba(73, 174, 219, .1);
+  box-shadow: 0 0 28px rgba(82, 192, 241, .09);
+}
+
+.eyebrow {
+  margin: 25px 0 9px;
+  color: #7fd9ff;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .22em;
+}
+
+.content h1 {
+  margin: 0;
+  font: 400 clamp(29px, 7vw, 40px)/1.12 Georgia, "Noto Serif TC", serif;
+  letter-spacing: -.025em;
+}
+
+.lead { margin: 15px 0 24px; color: #8ea4b8; font-size: 13px; line-height: 1.8; }
+
+.verificationField {
+  min-height: 68px;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #293d4e;
+  border-radius: 12px;
+  background: #09121e;
+}
+
+.verificationField > svg:first-child { color: #6dcff8; }
+.verificationField > svg:last-child { color: #62d4a0; }
+.verificationField div { min-width: 0; display: grid; gap: 4px; }
+.verificationField span { color: #667e93; font-size: 9px; letter-spacing: .06em; }
+.verificationField strong { overflow: hidden; color: #dcecf8; font-size: 13px; text-overflow: ellipsis; }
+
+.primaryButton {
+  width: 100%;
+  min-height: 49px;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #041019;
+  font: 700 13px Arial, "Noto Sans TC", sans-serif;
+  border: 0;
+  border-radius: 11px;
+  background: linear-gradient(100deg, #74d9ff, #89c7ff);
+  box-shadow: 0 12px 35px rgba(56, 166, 216, .17);
+  cursor: pointer;
+}
+
+.primaryButton:hover:not(:disabled) { filter: brightness(1.07); }
+.primaryButton:disabled { opacity: .52; cursor: not-allowed; }
+
+.waitingActions { margin-top: 16px; display: grid; gap: 12px; }
+.waitingActions p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #758da1;
+  font-size: 10px;
+  line-height: 1.6;
+}
+.waitingActions p svg { flex: 0 0 auto; color: #70ccec; }
+.waitingActions button {
+  min-height: 43px;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #b9d4e4;
+  font: 700 11px Arial, "Noto Sans TC", sans-serif;
+  border: 1px solid #2b4355;
+  border-radius: 10px;
+  background: #0a1521;
+  cursor: pointer;
+}
+.waitingActions button:hover:not(:disabled) { color: #eff9ff; border-color: #47728d; background: #0d1b29; }
+.waitingActions button:disabled { color: #526a7d; cursor: not-allowed; }
+
+.callbackProgress {
+  min-height: 48px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  color: #a8dff4;
+  font-size: 11px;
+  border: 1px solid rgba(103, 203, 244, .22);
+  border-radius: 11px;
+  background: rgba(36, 120, 157, .09);
+}
+
+.statusMessage {
+  margin: 16px 0 0;
+  padding: 11px 13px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 11px;
+  line-height: 1.65;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.statusMessage svg { flex: 0 0 auto; margin-top: 1px; }
+.infoStatus { color: #a7bbcc; border-color: #2a3d4d; background: #0b1520; }
+.successStatus { color: #aee8cc; border-color: rgba(89, 199, 144, .35); background: rgba(33, 106, 71, .15); }
+.errorStatus { color: #ffd0ca; border-color: rgba(210, 93, 81, .42); background: rgba(112, 38, 31, .17); }
+
+.loginShell footer {
+  padding: 16px 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  color: #647d91;
+  font-size: 9px;
+  line-height: 1.6;
+  border-top: 1px solid #1e2d3b;
+  background: rgba(5, 11, 18, .54);
+}
+.loginShell footer svg { flex: 0 0 auto; margin-top: 1px; color: #739fb5; }
+
+.spin { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+@media (max-width: 540px) {
+  .page { padding: 14px; align-items: center; }
+  .loginShell { border-radius: 17px; }
+  .brandHeader { min-height: 65px; padding-inline: 17px; }
+  .privateBadge { font-size: 0; }
+  .privateBadge svg { width: 14px; }
+  .content { padding: 31px 20px 28px; }
+  .content h1 { font-size: 30px; }
+  .lead { font-size: 12px; }
+  .loginShell footer { padding-inline: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spin { animation: none; }
+}

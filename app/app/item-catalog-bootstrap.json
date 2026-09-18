@@ -1,0 +1,2222 @@
+{
+  "schemaVersion": 1,
+  "publisher": "NCSOFT",
+  "sourceUrl": "https://tw.ncsoft.com/aion2/info/item",
+  "snapshotDate": "2026-07-19",
+  "retrievedAt": "2026-07-19T07:24:23.583Z",
+  "total": 10910,
+  "checksum": "7c8a600786ed4f3eb1cf5354378029065ad35c5af2a70e558b53032937d8520e",
+  "versionKey": "sha256-7c8a600786ed4f3eb1cf5354378029065ad35c5af2a70e558b53032937d8520e",
+  "itemsByLocale": {
+    "zh-hant": [
+      {
+        "id": "110120001",
+        "name": "應龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120001_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120002",
+        "name": "夔龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120002_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120003",
+        "name": "盧德萊絕滅刀",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0108_T06.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 421 ~ 569"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120003_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120004",
+        "name": "守衛者軍團長巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVP傷害增幅 10%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120004_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120005",
+        "name": "執政官軍團長巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVP傷害增幅 10%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120005_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120006",
+        "name": "閃耀的應龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "攻擊力 489 ~ 661",
+          "格擋 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120006_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120007",
+        "name": "閃耀的夔龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "攻擊力 489 ~ 661",
+          "格擋 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120007_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120012",
+        "name": "精銳守衛者軍團長巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVP傷害增幅 10%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120012_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120013",
+        "name": "精銳執政官軍團長巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVP傷害增幅 10%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120013_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120014",
+        "name": "盧德萊絕滅刀",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0108_T06.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 421 ~ 569"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120014_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120015",
+        "name": "被侵蝕的支配者捕食巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Dream_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120015_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120016",
+        "name": "被侵蝕的支配者捕食巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Dream_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120016_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120017",
+        "name": "創龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 548 ~ 742"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120017_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120018",
+        "name": "滅龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 548 ~ 742"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120018_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120019",
+        "name": "閃耀的創龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 574 ~ 776"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120019_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120020",
+        "name": "閃耀的滅龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 574 ~ 776"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120020_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120021",
+        "name": "應龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120021_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120022",
+        "name": "夔龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "格擋 150",
+          "攻擊力 463 ~ 627"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120022_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120023",
+        "name": "閃耀的應龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "攻擊力 489 ~ 661",
+          "格擋 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120023_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120024",
+        "name": "閃耀的夔龍王巨劍",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "英雄",
+        "categoryCode": "Greatsword",
+        "categoryName": "巨劍",
+        "optionLines": [
+          "暴擊 150",
+          "PVE傷害增幅 5%",
+          "命中 100",
+          "攻擊力 489 ~ 661",
+          "格擋 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://tw.ncsoft.com/aion2/info/item?detail=item_110120024_0_0",
+        "detailSlug": null
+      }
+    ],
+    "en": [
+      {
+        "id": "110120001",
+        "name": "Noble Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Noble+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120002",
+        "name": "Horned Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Horned+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120003",
+        "name": "Ludra's Blade of Extinction",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0108_T06.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "Block 150",
+          "Accuracy 100",
+          "Attack 421 ~ 569"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Ludra%27s+Blade+of+Extinction&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120004",
+        "name": "Guardian High Commander Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100",
+          "PvP Damage Boost 10%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Guardian+High+Commander+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120005",
+        "name": "Archon High Commander Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100",
+          "PvP Damage Boost 10%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Archon+High+Commander+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120006",
+        "name": "Splendent Noble Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 489 ~ 661",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Splendent+Noble+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120007",
+        "name": "Splendent Horned Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 489 ~ 661",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Splendent+Horned+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120012",
+        "name": "Elite Guardian High Commander Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100",
+          "PvP Damage Boost 10%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Elite+Guardian+High+Commander+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120013",
+        "name": "Elite Archon High Commander Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100",
+          "PvP Damage Boost 10%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Elite+Archon+High+Commander+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120014",
+        "name": "Ludra's Blade of Extinction",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0108_T06.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "Block 150",
+          "Accuracy 100",
+          "Attack 421 ~ 569"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Ludra%27s+Blade+of+Extinction&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120015",
+        "name": "Corroded Sovereign's Raptorial Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Dream_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Corroded+Sovereign%27s+Raptorial+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120016",
+        "name": "Corroded Sovereign's Raptorial Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Dream_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Corroded+Sovereign%27s+Raptorial+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120017",
+        "name": "Genesis Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 548 ~ 742",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Genesis+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120018",
+        "name": "Nemesis Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 548 ~ 742",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Nemesis+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120019",
+        "name": "Splendent Genesis Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 574 ~ 776",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Splendent+Genesis+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120020",
+        "name": "Splendent Nemesis Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 574 ~ 776",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Splendent+Nemesis+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120021",
+        "name": "Noble Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Noble+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120022",
+        "name": "Horned Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 463 ~ 627",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Horned+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120023",
+        "name": "Splendent Noble Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 489 ~ 661",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Splendent+Noble+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      },
+      {
+        "id": "110120024",
+        "name": "Splendent Horned Dragon Lord Greatsword",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "Heroic",
+        "categoryCode": "Greatsword",
+        "categoryName": "Greatsword",
+        "optionLines": [
+          "Critical Hit 150",
+          "PvE Damage Boost 5%",
+          "Block 150",
+          "Attack 489 ~ 661",
+          "Accuracy 100"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://api-goats.plaync.com/aion2/v2.0/dict/search/item?locale=en-US&searchKeyword=Splendent+Horned+Dragon+Lord+Greatsword&exact=true&size=10",
+        "detailSlug": null
+      }
+    ],
+    "ko": [
+      {
+        "id": "110120001",
+        "name": "응룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120001_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120002",
+        "name": "기룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120002_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120003",
+        "name": "루드라의 절멸도",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0108_T06.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 421 ~ 569",
+          "막기 150",
+          "명중 100",
+          "치명타 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120003_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120004",
+        "name": "가디언 군단장의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "PVP 피해 증폭 10%",
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120004_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120005",
+        "name": "아칸 군단장의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "PVP 피해 증폭 10%",
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120005_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120006",
+        "name": "빛나는 응룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "막기 150",
+          "명중 100",
+          "공격력 489 ~ 661",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120006_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120007",
+        "name": "빛나는 기룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "막기 150",
+          "명중 100",
+          "공격력 489 ~ 661",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120007_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120012",
+        "name": "정예 가디언 군단장의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "PVP 피해 증폭 10%",
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120012_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120013",
+        "name": "정예 아칸 군단장의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Moon_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "PVP 피해 증폭 10%",
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120013_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120014",
+        "name": "루드라의 절멸도",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0108_T06.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 421 ~ 569",
+          "막기 150",
+          "명중 100",
+          "치명타 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120014_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120015",
+        "name": "침식된 지배자의 포식대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Dream_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120015_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120016",
+        "name": "침식된 지배자의 포식대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_Dream_01.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120016_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120017",
+        "name": "창룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "막기 150",
+          "공격력 548 ~ 742",
+          "명중 100",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120017_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120018",
+        "name": "멸룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "막기 150",
+          "공격력 548 ~ 742",
+          "명중 100",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120018_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120019",
+        "name": "빛나는 창룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 574 ~ 776",
+          "막기 150",
+          "명중 100",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120019_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120020",
+        "name": "빛나는 멸룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0117_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 574 ~ 776",
+          "막기 150",
+          "명중 100",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": true,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120020_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120021",
+        "name": "응룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120021_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120022",
+        "name": "기룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "공격력 463 ~ 627",
+          "막기 150",
+          "명중 100",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120022_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120023",
+        "name": "빛나는 응룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "막기 150",
+          "명중 100",
+          "공격력 489 ~ 661",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120023_0_0",
+        "detailSlug": null
+      },
+      {
+        "id": "110120024",
+        "name": "빛나는 기룡왕의 대검",
+        "imageUrl": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0110_T05.png",
+        "gradeCode": "Epic",
+        "gradeName": "영웅",
+        "categoryCode": "Greatsword",
+        "categoryName": "대검",
+        "optionLines": [
+          "막기 150",
+          "명중 100",
+          "공격력 489 ~ 661",
+          "치명타 150",
+          "PVE 피해 증폭 5%"
+        ],
+        "classIds": [
+          "gladiator"
+        ],
+        "tradable": false,
+        "officialUrl": "https://aion2.plaync.com/ko-kr/info/item?detail=item_110120024_0_0",
+        "detailSlug": null
+      }
+    ]
+  },
+  "facetsByLocale": {
+    "zh-hant": {
+      "grades": [
+        {
+          "code": "Epic",
+          "label": "英雄",
+          "count": 864,
+          "rank": 5
+        },
+        {
+          "code": "Unique",
+          "label": "獨特",
+          "count": 3279,
+          "rank": 4
+        },
+        {
+          "code": "Legend",
+          "label": "傳承",
+          "count": 3032,
+          "rank": 3
+        },
+        {
+          "code": "Rare",
+          "label": "稀有",
+          "count": 1802,
+          "rank": 2
+        },
+        {
+          "code": "Common",
+          "label": "一般",
+          "count": 1933,
+          "rank": 1
+        }
+      ],
+      "categories": [
+        {
+          "code": "Torso",
+          "label": "上衣",
+          "count": 331
+        },
+        {
+          "code": "Pants",
+          "label": "下衣",
+          "count": 331
+        },
+        {
+          "code": "Bow",
+          "label": "弓",
+          "count": 216
+        },
+        {
+          "code": "Gloves",
+          "label": "手套",
+          "count": 331
+        },
+        {
+          "code": "Bracelet",
+          "label": "手鐲",
+          "count": 21
+        },
+        {
+          "code": "Greatsword",
+          "label": "巨劍",
+          "count": 216
+        },
+        {
+          "code": "unclassified",
+          "label": "未分類",
+          "count": 169
+        },
+        {
+          "code": "Earring",
+          "label": "耳環",
+          "count": 200
+        },
+        {
+          "code": "Ring",
+          "label": "戒指",
+          "count": 200
+        },
+        {
+          "code": "SkinArmor",
+          "label": "防具",
+          "count": 34
+        },
+        {
+          "code": "Equip_Armor",
+          "label": "防具（其他）",
+          "count": 4
+        },
+        {
+          "code": "Etc",
+          "label": "其他",
+          "count": 4
+        },
+        {
+          "code": "Misc_001",
+          "label": "其他（其他）",
+          "count": 130
+        },
+        {
+          "code": "Scroll",
+          "label": "咒文書",
+          "count": 57
+        },
+        {
+          "code": "Cape",
+          "label": "披風",
+          "count": 329
+        },
+        {
+          "code": "Staff",
+          "label": "法杖",
+          "count": 216
+        },
+        {
+          "code": "Magicbook",
+          "label": "法書",
+          "count": 216
+        },
+        {
+          "code": "Orb",
+          "label": "法珠",
+          "count": 216
+        },
+        {
+          "code": "ConversionResource",
+          "label": "物質變換",
+          "count": 64
+        },
+        {
+          "code": "Shoulder",
+          "label": "肩甲",
+          "count": 331
+        },
+        {
+          "code": "Sword",
+          "label": "長劍",
+          "count": 216
+        },
+        {
+          "code": "Food",
+          "label": "食物/飲料",
+          "count": 135
+        },
+        {
+          "code": "Gauntlet",
+          "label": "拳甲",
+          "count": 216
+        },
+        {
+          "code": "Usable_001",
+          "label": "消耗品（其他）",
+          "count": 4479
+        },
+        {
+          "code": "Material",
+          "label": "特殊材料",
+          "count": 12
+        },
+        {
+          "code": "GodStone",
+          "label": "神石",
+          "count": 51
+        },
+        {
+          "code": "Wing",
+          "label": "翅膀",
+          "count": 32
+        },
+        {
+          "code": "Brooch",
+          "label": "胸針",
+          "count": 5
+        },
+        {
+          "code": "Mace",
+          "label": "釘錘",
+          "count": 216
+        },
+        {
+          "code": "GatherResource",
+          "label": "採集",
+          "count": 92
+        },
+        {
+          "code": "Dagger",
+          "label": "短劍",
+          "count": 216
+        },
+        {
+          "code": "Necklace",
+          "label": "項鍊",
+          "count": 196
+        },
+        {
+          "code": "Deco",
+          "label": "萬神殿",
+          "count": 236
+        },
+        {
+          "code": "SkinOrnament",
+          "label": "裝飾品",
+          "count": 16
+        },
+        {
+          "code": "Equip_Accessory",
+          "label": "飾品（其他）",
+          "count": 11
+        },
+        {
+          "code": "CraftResource",
+          "label": "製作材料",
+          "count": 199
+        },
+        {
+          "code": "Box",
+          "label": "箱子",
+          "count": 3
+        },
+        {
+          "code": "Boots",
+          "label": "鞋子",
+          "count": 331
+        },
+        {
+          "code": "Polymorph",
+          "label": "糖果",
+          "count": 21
+        },
+        {
+          "code": "Helmet",
+          "label": "頭盔",
+          "count": 329
+        },
+        {
+          "code": "Guarder",
+          "label": "臂甲",
+          "count": 212
+        },
+        {
+          "code": "Potion",
+          "label": "藥水",
+          "count": 30
+        },
+        {
+          "code": "MagicStone",
+          "label": "魔石/靈石",
+          "count": 40
+        }
+      ],
+      "classes": [
+        {
+          "code": "gladiator",
+          "label": "劍星",
+          "count": 9182
+        },
+        {
+          "code": "templar",
+          "label": "守護星",
+          "count": 9182
+        },
+        {
+          "code": "assassin",
+          "label": "殺星",
+          "count": 9182
+        },
+        {
+          "code": "ranger",
+          "label": "弓星",
+          "count": 9182
+        },
+        {
+          "code": "sorcerer",
+          "label": "魔道星",
+          "count": 9182
+        },
+        {
+          "code": "spiritmaster",
+          "label": "精靈星",
+          "count": 9182
+        },
+        {
+          "code": "cleric",
+          "label": "治癒星",
+          "count": 9182
+        },
+        {
+          "code": "chanter",
+          "label": "護法星",
+          "count": 9182
+        },
+        {
+          "code": "brawler",
+          "label": "拳星",
+          "count": 9182
+        }
+      ]
+    },
+    "en": {
+      "grades": [
+        {
+          "code": "Epic",
+          "label": "Heroic",
+          "count": 864,
+          "rank": 5
+        },
+        {
+          "code": "Unique",
+          "label": "Unique",
+          "count": 3279,
+          "rank": 4
+        },
+        {
+          "code": "Legend",
+          "label": "Epic",
+          "count": 3032,
+          "rank": 3
+        },
+        {
+          "code": "Rare",
+          "label": "Rare",
+          "count": 1802,
+          "rank": 2
+        },
+        {
+          "code": "Common",
+          "label": "Common",
+          "count": 1933,
+          "rank": 1
+        }
+      ],
+      "categories": [
+        {
+          "code": "Equip_Accessory",
+          "label": "Accessories (Other)",
+          "count": 11
+        },
+        {
+          "code": "SkinArmor",
+          "label": "Armor",
+          "count": 34
+        },
+        {
+          "code": "Equip_Armor",
+          "label": "Armor (Other)",
+          "count": 4
+        },
+        {
+          "code": "Bow",
+          "label": "Bow",
+          "count": 216
+        },
+        {
+          "code": "Bracelet",
+          "label": "Bracelet",
+          "count": 21
+        },
+        {
+          "code": "Brooch",
+          "label": "Brooch",
+          "count": 5
+        },
+        {
+          "code": "Polymorph",
+          "label": "Candy",
+          "count": 21
+        },
+        {
+          "code": "Box",
+          "label": "Chest",
+          "count": 3
+        },
+        {
+          "code": "Cape",
+          "label": "Cloak",
+          "count": 329
+        },
+        {
+          "code": "Usable_001",
+          "label": "Consumables (Other)",
+          "count": 4479
+        },
+        {
+          "code": "CraftResource",
+          "label": "Crafting Material",
+          "count": 199
+        },
+        {
+          "code": "Dagger",
+          "label": "Dagger",
+          "count": 216
+        },
+        {
+          "code": "SkinOrnament",
+          "label": "Decoration",
+          "count": 16
+        },
+        {
+          "code": "Earring",
+          "label": "Earrings",
+          "count": 200
+        },
+        {
+          "code": "Food",
+          "label": "Food/Beverage",
+          "count": 135
+        },
+        {
+          "code": "GatherResource",
+          "label": "Gathering Material",
+          "count": 92
+        },
+        {
+          "code": "Gauntlet",
+          "label": "Gauntlet",
+          "count": 216
+        },
+        {
+          "code": "Gloves",
+          "label": "Gloves",
+          "count": 331
+        },
+        {
+          "code": "Greatsword",
+          "label": "Greatsword",
+          "count": 216
+        },
+        {
+          "code": "Guarder",
+          "label": "Guard",
+          "count": 212
+        },
+        {
+          "code": "Helmet",
+          "label": "Helm",
+          "count": 329
+        },
+        {
+          "code": "Pants",
+          "label": "Legs",
+          "count": 331
+        },
+        {
+          "code": "Sword",
+          "label": "Longsword",
+          "count": 216
+        },
+        {
+          "code": "Mace",
+          "label": "Mace",
+          "count": 216
+        },
+        {
+          "code": "MagicStone",
+          "label": "Manastone/Soulstone",
+          "count": 40
+        },
+        {
+          "code": "Etc",
+          "label": "Miscellaneous",
+          "count": 4
+        },
+        {
+          "code": "Misc_001",
+          "label": "Miscellaneous (Other)",
+          "count": 130
+        },
+        {
+          "code": "Necklace",
+          "label": "Necklace",
+          "count": 196
+        },
+        {
+          "code": "Orb",
+          "label": "Orb",
+          "count": 216
+        },
+        {
+          "code": "Deco",
+          "label": "Pantheon",
+          "count": 236
+        },
+        {
+          "code": "Shoulder",
+          "label": "Pauldrons",
+          "count": 331
+        },
+        {
+          "code": "Potion",
+          "label": "Potions",
+          "count": 30
+        },
+        {
+          "code": "Ring",
+          "label": "Ring",
+          "count": 200
+        },
+        {
+          "code": "Scroll",
+          "label": "Scroll",
+          "count": 57
+        },
+        {
+          "code": "Boots",
+          "label": "Shoes",
+          "count": 331
+        },
+        {
+          "code": "Material",
+          "label": "Special Materials",
+          "count": 12
+        },
+        {
+          "code": "Magicbook",
+          "label": "Spellbook",
+          "count": 216
+        },
+        {
+          "code": "Staff",
+          "label": "Staff",
+          "count": 216
+        },
+        {
+          "code": "ConversionResource",
+          "label": "Substance Morph Material",
+          "count": 64
+        },
+        {
+          "code": "GodStone",
+          "label": "Theostone",
+          "count": 51
+        },
+        {
+          "code": "Torso",
+          "label": "Top",
+          "count": 331
+        },
+        {
+          "code": "unclassified",
+          "label": "Unclassified",
+          "count": 169
+        },
+        {
+          "code": "Wing",
+          "label": "Wings",
+          "count": 32
+        }
+      ],
+      "classes": [
+        {
+          "code": "gladiator",
+          "label": "Gladiator",
+          "count": 9182
+        },
+        {
+          "code": "templar",
+          "label": "Templar",
+          "count": 9182
+        },
+        {
+          "code": "assassin",
+          "label": "Assassin",
+          "count": 9182
+        },
+        {
+          "code": "ranger",
+          "label": "Ranger",
+          "count": 9182
+        },
+        {
+          "code": "sorcerer",
+          "label": "Sorcerer",
+          "count": 9182
+        },
+        {
+          "code": "spiritmaster",
+          "label": "Spiritmaster",
+          "count": 9182
+        },
+        {
+          "code": "cleric",
+          "label": "Cleric",
+          "count": 9182
+        },
+        {
+          "code": "chanter",
+          "label": "Chanter",
+          "count": 9182
+        },
+        {
+          "code": "brawler",
+          "label": "Brawler",
+          "count": 9182
+        }
+      ]
+    },
+    "ko": {
+      "grades": [
+        {
+          "code": "Epic",
+          "label": "영웅",
+          "count": 864,
+          "rank": 5
+        },
+        {
+          "code": "Unique",
+          "label": "유일",
+          "count": 3279,
+          "rank": 4
+        },
+        {
+          "code": "Legend",
+          "label": "전승",
+          "count": 3032,
+          "rank": 3
+        },
+        {
+          "code": "Rare",
+          "label": "희귀",
+          "count": 1802,
+          "rank": 2
+        },
+        {
+          "code": "Common",
+          "label": "일반",
+          "count": 1933,
+          "rank": 1
+        }
+      ],
+      "categories": [
+        {
+          "code": "Guarder",
+          "label": "가더",
+          "count": 212
+        },
+        {
+          "code": "Shoulder",
+          "label": "견갑",
+          "count": 331
+        },
+        {
+          "code": "Gauntlet",
+          "label": "권갑",
+          "count": 216
+        },
+        {
+          "code": "Earring",
+          "label": "귀걸이",
+          "count": 200
+        },
+        {
+          "code": "Etc",
+          "label": "기타",
+          "count": 4
+        },
+        {
+          "code": "Misc_001",
+          "label": "기타 (기타)",
+          "count": 130
+        },
+        {
+          "code": "Wing",
+          "label": "날개깃",
+          "count": 32
+        },
+        {
+          "code": "Dagger",
+          "label": "단검",
+          "count": 216
+        },
+        {
+          "code": "Greatsword",
+          "label": "대검",
+          "count": 216
+        },
+        {
+          "code": "MagicStone",
+          "label": "마석/영석",
+          "count": 40
+        },
+        {
+          "code": "Deco",
+          "label": "만신전",
+          "count": 236
+        },
+        {
+          "code": "Cape",
+          "label": "망토",
+          "count": 329
+        },
+        {
+          "code": "Necklace",
+          "label": "목걸이",
+          "count": 196
+        },
+        {
+          "code": "Potion",
+          "label": "물약",
+          "count": 30
+        },
+        {
+          "code": "ConversionResource",
+          "label": "물질변환재료",
+          "count": 64
+        },
+        {
+          "code": "unclassified",
+          "label": "미분류",
+          "count": 169
+        },
+        {
+          "code": "Ring",
+          "label": "반지",
+          "count": 200
+        },
+        {
+          "code": "SkinArmor",
+          "label": "방어구",
+          "count": 34
+        },
+        {
+          "code": "Equip_Armor",
+          "label": "방어구 (기타)",
+          "count": 4
+        },
+        {
+          "code": "Staff",
+          "label": "법봉",
+          "count": 216
+        },
+        {
+          "code": "Magicbook",
+          "label": "법서",
+          "count": 216
+        },
+        {
+          "code": "Orb",
+          "label": "보주",
+          "count": 216
+        },
+        {
+          "code": "Brooch",
+          "label": "브로치",
+          "count": 5
+        },
+        {
+          "code": "Torso",
+          "label": "상의",
+          "count": 331
+        },
+        {
+          "code": "Box",
+          "label": "상자",
+          "count": 3
+        },
+        {
+          "code": "Usable_001",
+          "label": "소모품 (기타)",
+          "count": 4479
+        },
+        {
+          "code": "Boots",
+          "label": "신발",
+          "count": 331
+        },
+        {
+          "code": "GodStone",
+          "label": "신석",
+          "count": 51
+        },
+        {
+          "code": "Food",
+          "label": "음식/음료",
+          "count": 135
+        },
+        {
+          "code": "Gloves",
+          "label": "장갑",
+          "count": 331
+        },
+        {
+          "code": "Sword",
+          "label": "장검",
+          "count": 216
+        },
+        {
+          "code": "SkinOrnament",
+          "label": "장식",
+          "count": 16
+        },
+        {
+          "code": "Equip_Accessory",
+          "label": "장신구 (기타)",
+          "count": 11
+        },
+        {
+          "code": "Mace",
+          "label": "전곤",
+          "count": 216
+        },
+        {
+          "code": "CraftResource",
+          "label": "제작재료",
+          "count": 199
+        },
+        {
+          "code": "Scroll",
+          "label": "주문서",
+          "count": 57
+        },
+        {
+          "code": "GatherResource",
+          "label": "채집재료",
+          "count": 92
+        },
+        {
+          "code": "Polymorph",
+          "label": "캔디",
+          "count": 21
+        },
+        {
+          "code": "Helmet",
+          "label": "투구",
+          "count": 329
+        },
+        {
+          "code": "Material",
+          "label": "특수재료",
+          "count": 12
+        },
+        {
+          "code": "Bracelet",
+          "label": "팔찌",
+          "count": 21
+        },
+        {
+          "code": "Pants",
+          "label": "하의",
+          "count": 331
+        },
+        {
+          "code": "Bow",
+          "label": "활",
+          "count": 216
+        }
+      ],
+      "classes": [
+        {
+          "code": "gladiator",
+          "label": "검성",
+          "count": 9182
+        },
+        {
+          "code": "templar",
+          "label": "수호성",
+          "count": 9182
+        },
+        {
+          "code": "assassin",
+          "label": "살성",
+          "count": 9182
+        },
+        {
+          "code": "ranger",
+          "label": "궁성",
+          "count": 9182
+        },
+        {
+          "code": "sorcerer",
+          "label": "마도성",
+          "count": 9182
+        },
+        {
+          "code": "spiritmaster",
+          "label": "정령성",
+          "count": 9182
+        },
+        {
+          "code": "cleric",
+          "label": "치유성",
+          "count": 9182
+        },
+        {
+          "code": "chanter",
+          "label": "호법성",
+          "count": 9182
+        },
+        {
+          "code": "brawler",
+          "label": "권성",
+          "count": 9182
+        }
+      ]
+    }
+  }
+}

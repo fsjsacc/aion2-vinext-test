@@ -1,0 +1,112 @@
+AION2 内容全量迁移 — 248 测试环境验证提示词
+===========================================
+
+你在 AION2-KINA 项目会话中工作，工作目录是 C:\Code\ABD\Code\0729\AION2-KINA-20260803。
+
+任务：在 248 测试环境验证方案 D（globalThis），确认可行后再上 db11 线上
+--------------------------------------------------------------------
+
+不要直接修改 db11 线上代码。先在 248 测试环境验证方案 D，验证通过后汇报，
+等用户确认后再部署到 db11。
+
+
+背景
+----
+
+方案 D（globalThis）：
+- worker/index.ts 读 D1 全量内容 → 写入 globalThis.__dbContent
+- app/content-overrides.ts 读 globalThis.__dbContent（替代 header）
+- 全量 278 条内容，内存约 20-30 MB，workerd 923 MB 可接受
+
+
+必读文档
+--------
+
+1. GUIDE/CONTENT_CMS_MIGRATION.md —— 完整实施交办（方案 D）
+2. unified-admin/docs/AION2_CONTENT_CMS_MIGRATION_PLAN.md —— 方案文档
+3. GUIDE/CONTENT_CMS_MIGRATION_CHECK.md —— 检查报告
+4. GUIDE/SSH_CMD_WIN.md —— SSH 方法
+
+
+测试环境
+--------
+
+- 目标 VM：192.168.4.248（test 环境，db01 模板克隆，无业务域名/隧道/SaaS）
+- 密码：同 CREDENTIALS §一（db / 1）
+- SSH 方法：python C:\Code\ABD\Code\0729\GUIDE\sshrun.py 192.168.4.248 db 1 <base64命令>
+- 需先确认 248 上是否有 Node.js 运行时（若没有则需安装）
+
+
+测试步骤
+--------
+
+步骤 1：检查 248 环境
+  1. 确认 248 可达（SSH 测试）
+  2. 检查是否有 Node.js、npm
+  3. 检查是否有 workerd
+  4. 检查是否有 AION2 代码（若没有则需从 db11 复制）
+
+步骤 2：在 248 部署测试环境
+  1. 如果 248 没有 AION2 代码：
+     - 从 db11 通过 SCP 复制 /opt/app/aion2kina/ 目录到 248
+     - 或从本地仓库 AION2-KINA-20260803/ 上传到 248
+  2. 在 248 上跑 npx vinext dev --port 3000 --hostname 0.0.0.0（后台运行）
+
+步骤 3：先测试当前状态（header 方案）
+  1. 确认 248 上 worker 正常运行
+  2. 测试 /api/admin/content?section=news 返回 19 条
+  3. 测试访问某条 news 详情页，确认 header 注入正常
+
+步骤 4：实施方案 D 改动（在 248 上，不改 db11）
+  1. 改 worker/index.ts：
+     - readContentFromDatabase 去 section 过滤
+     - header 注入改为 globalThis 写入
+  2. 改 app/content-overrides.ts：
+     - 优先读 globalThis（保留 header 兜底）
+  3. 改 guides/classes/database 三个详情页：
+     - resolveContent 改 async + DB 覆盖
+  4. 改 HubPage.tsx：
+     - getContentEntries 合并 DB 内容
+  5. 注意：worker/admin-api.ts CRUD 和 export-to-d1.mjs 已就绪，不需改
+
+步骤 5：验证方案 D
+  1. 重启 worker
+  2. 验证 globalThis.__dbContent 可读（写一个临时测试端点）
+  3. 验证 /api/admin/content 返回全部 section 数据
+  4. 验证详情页用 DB 内容覆盖正常
+  5. 验证列表页合并后显示 DB 内容
+  6. 验证内存占用（ps -o rss,command -C workerd）
+  7. 验证 cookie 登录不受影响
+
+步骤 6：汇报测试结果
+
+按以下格式汇报：
+
+## 248 测试结果
+
+### 环境
+- 248 是否可达：是/否
+- Node.js 版本：xxx
+- 测试环境搭建方式：xxx
+
+### 方案 D 验证
+- globalThis 写入和读取：成功/失败
+- 内容 API 返回全部 section：成功/失败
+- 详情页 DB 覆盖：成功/失败
+- 列表页合并：成功/失败
+- 内存占用：workerd 前/后对比（xx MB → xx MB）
+- cookie 管理员不受影响：成功/失败
+
+### 结论
+- 方案 D 在 248 验证：通过/不通过
+- 是否可部署到 db11 线上：是/否
+- 建议改进：xxx
+
+
+注意事项
+--------
+
+- 测试环境 248 的密码是 1（同 CREDENTIALS §一，db 用户）
+- 248 是干净的测试 VM，无业务域名/隧道，放心测试
+- 所有改动先在 248 上验证，不要直接改 db11 的代码
+- 验证通过并人工审核确认后，方案 D 的改动才应用到 db11 线上

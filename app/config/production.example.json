@@ -1,0 +1,20 @@
+{
+  "primaryOrigin": "https://www.example.com",
+  "sites": {
+    "access": "public",
+    "customDomainRequired": true
+  },
+  "mapAssets": {
+    "provider": "cloudflare-r2",
+    "binding": "MAP_ASSETS",
+    "releaseTransport": "authenticated-worker-binding",
+    "releaseEndpoint": "/__atlas-release",
+    "releasePrefix": "releases",
+    "stablePointer": "channels/stable.json"
+  },
+  "database": {
+    "provider": "miniflare-d1",
+    "schema": "atlas",
+    "channel": "stable"
+  }
+}
